@@ -11,6 +11,7 @@ public class Main {
 		Mentoria mentoria1 = new Mentoria("Composição", "Ajudando a desmistificar a composição", LocalDate.now());
 		Mentoria mentoria2 = new Mentoria("Música e café", "Um bate papo sobre música com cafézinho", LocalDate.of(2022, 10, 9));
 		
+		
 		System.out.println(curso1);
 		System.out.println(mentoria1);
 		System.out.println(curso2);
