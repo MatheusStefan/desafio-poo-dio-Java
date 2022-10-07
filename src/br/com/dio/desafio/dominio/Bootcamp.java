@@ -15,6 +15,18 @@ public class Bootcamp {
 	private Set<Dev> devsInscritos = new HashSet<>();
 	private Set<Conteudo> conteudos = new LinkedHashSet<>();
 
+	public Bootcamp() {
+
+	}
+
+	public Bootcamp(String nome, String descricao, Set<Dev> devsInscritos, Set<Conteudo> conteudos) {
+		super();
+		this.nome = nome;
+		this.descricao = descricao;
+		this.devsInscritos = devsInscritos;
+		this.conteudos = conteudos;
+	}
+
 	public String getNome() {
 		return nome;
 	}
